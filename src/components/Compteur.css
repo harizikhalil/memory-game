@@ -1,0 +1,25 @@
+.compteur_container {
+  max-width: 810px;
+  margin: 5px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.compteur_container .moves,
+.compteur_container .timer {
+  background-color: #126e82;
+  padding: 1rem;
+  color: #fff;
+  border-radius: 7px;
+}
+.compteur_container button {
+  background-color: #126e82;
+  padding: 1rem;
+  border-radius: 7px;
+  outline: none;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  margin: 0 auto;
+}
